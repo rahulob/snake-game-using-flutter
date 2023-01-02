@@ -155,14 +155,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void showGameOverStats() async {
-    if (score > _highScore) {
-      await Prefrences.saveHighScore(score);
-      setState(() {
-        _highScore = Prefrences.getHighScore();
-      });
-      print(_highScore);
-    }
-
     showDialog(
       barrierDismissible: false,
       context: context,
@@ -174,7 +166,7 @@ class _HomeScreenState extends State<HomeScreen> {
           },
           child: AlertDialog(
             title: const Text('GAME OVER'),
-            content: Text('${score>_highScore?'High ':''}Score: $score'),
+            content: Text('Score: $score'),
             actions: [
               ElevatedButton(
                 onPressed: resetGame,
@@ -195,6 +187,12 @@ class _HomeScreenState extends State<HomeScreen> {
         );
       },
     );
+    if (score > _highScore) {
+      await Prefrences.saveHighScore(score);
+      setState(() {
+        _highScore = Prefrences.getHighScore();
+      });
+    }
   }
 
   void resetGame() {
