@@ -5,9 +5,9 @@
 Here are some screen-shots from different devices to see how it looks on different screens
 
 
-Mac OS |  IOS
-:-------------------------:|:-------------------------:
-<img width="400" alt="MacOS screen shot" src="https://user-images.githubusercontent.com/61629739/210215686-342e8dfa-c16d-4714-818a-3852bf9e39fc.png"> |  <img height= "500" alt="MacOS screen shot" src="https://user-images.githubusercontent.com/61629739/210216453-1eb59f14-7b6f-4150-80bb-2e77ffeeffe5.png">
+Mac OS |  IOS | Game Over
+:-------------------------:|:-------------------------:|:-------------------------:
+<img width="400" alt="MacOS screen shot" src="https://user-images.githubusercontent.com/61629739/210215686-342e8dfa-c16d-4714-818a-3852bf9e39fc.png"> |  <img height= "500" alt="MacOS screen shot" src="https://user-images.githubusercontent.com/61629739/210216453-1eb59f14-7b6f-4150-80bb-2e77ffeeffe5.png"> | <img height= "500" alt="MacOS screen shot" src="https://user-images.githubusercontent.com/61629739/210217709-cb509dc7-6548-477a-aeb5-3a116a4b2e97.png">
 
 ## Different parts of the game
 - You can start and pause the game.
